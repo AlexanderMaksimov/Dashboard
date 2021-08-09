@@ -1,0 +1,85 @@
+.pointer{
+    cursor:pointer
+}
+.edit-category-icon-area2{
+    width: 15%;
+    display: inline-block;
+    text-align: left;
+    font-size: 13;
+}
+.category-title{
+    width: 70%;
+    display: inline-block;
+    font-size: 16;
+}
+.category-count{
+    width: 8%;
+    text-align: left;
+    display: inline-block;
+    font-size: 16;
+}
+.category-icon{
+    width: 15%;
+    display: inline-block;
+    color: rgb(29, 48, 74);
+}
+.edit-category-icon{
+    width: 1%!important;
+    color: rgb(255, 0, 0);
+    display: inline-block;
+    align-content:  right !important;
+}
+.add-icon{
+    cursor: pointer;
+    font-size:25px;
+    vertical-align: middle;
+}
+span.add-icon-area{
+    width: 15%;
+    display: inline-block;
+    text-align: left;
+}
+#categories{
+    width: 15%;
+    overflow: hidden ;
+}
+.nan-title{
+    width: 85%;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.add-icon
+{
+    width: 15%;
+    text-align: center;
+}
+.search-category-area {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f2f2f2;
+    border-radius: 6px
+}
+.search-category-button {
+    margin-left: 0px;
+    font-size: 20px !important;
+}
+.sidebar-background{
+    background-image: url("images/sidebar-2.jpg") !important;
+}
+.blinking {
+    animation: anim 2s linear 1s infinite alternate;
+}
+
+@keyframes anim {
+    0% {
+     opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+     opacity: 1;
+    }
+  }

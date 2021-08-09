@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../../src/assets/css/material-dashboard.css";
+
+.pointer {
+    cursor: pointer;
+}
+.main-panel>.context{
+    margin-top: 30px !important;
+}
+
+app-header{
+    width: 100%;
+}

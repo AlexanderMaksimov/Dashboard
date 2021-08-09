@@ -1,0 +1,16 @@
+<div mat-dialog-title>
+  <h3>{{dialogTitle}}</h3>
+</div>
+<div mat-dialog-content>
+  <p>{{message}}</p>
+</div>
+<!--кнопки возможных действий-->
+<div mat-dialog-actions>
+  <button mat-raised-button color="primary" (click)="OnConfirm()" >
+    <!-- если пустой текст кнопка Сохранить -->
+    ОК
+  </button>
+  <button mat-raised-button (click)="OnCancel()">
+    Отмена
+  </button>
+</div>

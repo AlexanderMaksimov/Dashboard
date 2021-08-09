@@ -1,0 +1,30 @@
+<mat-dialog-content>
+  <p mat-dialog-title>{{dialogTitle}}</p>
+  <!--Название задачи-->
+  <mat-form-field>
+    <mat-label>Name</mat-label>
+    <input #inputTitle matInput [(ngModel)]="tmpTitle" (keydown.enter)="OnConfirm() ">
+    <!-- по нажатию энтер можем сразу сохранить категорию-->
+
+    <button *ngIf="tmpTitle.trim().length>0" mat-button matSyffix mat-icon-button aria-label="Clear"
+      (click)="tmpTitle=''" class="size25">
+      <mat-icon>clear</mat-icon>
+    </button>
+  </mat-form-field>
+
+</mat-dialog-content>
+
+<!--кнопки возможных действий-->
+<mat-dialog-actions>
+  <button mat-raised-button color="primary" (click)="OnConfirm()" [disabled]="inputTitle.value.trim().lenght==0">
+    <!-- если пустой текст кнопка Сохранить -->
+    Сохранить
+  </button>
+  <button mat-raised-button color="primary" (click)="OnCancel()">
+    Отмена
+  </button> 
+  <button mat-raised-button class="red" *ngIf="CanDelete()" (click)="OnDelete()">
+    Удалить категорию.
+  </button>
+
+</mat-dialog-actions>

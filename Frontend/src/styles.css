@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import"../src/assets/css/material-dashboard.css";
+@import "../src/assets/css/material-dashboard.css";
+@import "https://unpkg.com/intro.js/minified/introjs.min.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.delete-icon{
+    cursor: pointer;
+    color: aqua;
+    font-size: 18px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.delete-icon{
+    cursor: pointer;
+    color:darkgoldenrod;
+    font-size: 18px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.mat-header-cell{
+    font-size: 1.063rem;
+    color:lawngreen !important;
+    font-weight:normal;
+}
+.mat-header-cell{
+    font-size: 1.063rem;
+    color:forestgreen !important;
+    font-weight: normal;
+}

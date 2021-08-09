@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <div class="row settings">
+
+      <div class="col-10 text-left align-self-top">
+        <button (click)="onToggleMenu()" mat-icon-button type="button">
+
+            <mat-icon>menu</mat-icon>
+
+        </button>
+          <p class="navbar-brand">{{categoryName}}</p>
+
+         <button class="navbar-brand buttonView link"  (click)="ViewStatistic(viewStat)">{{buttonTitle}}</button>
+      </div>
+
+
+      <!--  помощь, настройки-->
+      <div class="col-2 text-right align-self-top">
+
+          <button mat-icon-button (click)="ShowSettings()" class="header-icon">
+              <mat-icon>settings</mat-icon>
+          </button>
+
+          <button mat-icon-button (click)="ShowHelp()" class="header-icon">
+              <mat-icon>help</mat-icon>
+          </button>
+
+
+      </div>
+
+
+  </div>
+</div>

@@ -1,0 +1,41 @@
+<div>
+  <div class="row">
+      <app-statCard
+              class='col-lg-3 col-md-6 col-sm-6'
+              title="Завершенные задачи"
+              iconName="done"
+              [countComplite]="completeTasksInCategory"
+              [countTotal]="totalTasksInCategory"
+              [status]="true"
+      >
+      </app-statCard>
+
+      <app-statCard
+              class='col-lg-3 col-md-6 col-sm-6'
+              title="Незавершенные задачи"
+              iconName="thumb_down_alt"
+              [countComplite]="uncompleteTasksInCategory"
+              [countTotal]="totalTasksInCategory"
+      >
+      </app-statCard>
+
+
+      <app-statCard
+              class='col-lg-3 col-md-6 col-sm-6'
+              title="Процент завершенных задач"
+              iconName="poll"
+              [countComplite]="completeTasksInCategory ? (completeTasksInCategory/totalTasksInCategory | percent) : '0 %'"
+              [status]="true"
+
+      >
+      </app-statCard>
+
+
+      <app-statCard
+              class='col-lg-3 col-md-6 col-sm-6'
+              title="Процент незавершенных задач"
+              iconName="thumb_down_alt"
+              [countComplite]="uncompleteTasksInCategory ? (uncompleteTasksInCategory/totalTasksInCategory | percent) : '0 %'">
+      </app-statCard>
+  </div>
+</div>

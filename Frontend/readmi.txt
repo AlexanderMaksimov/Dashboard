@@ -1,0 +1,8 @@
+for run "npm run start"
+localhost 4200
+
+https://medium.com/ngx/angular-ngrx-%D1%8F%D1%81%D0%BD%D0%BE%D0%B5-%D0%B8-%D1%87%D1%91%D1%82%D0%BA%D0%BE%D0%B5-%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-bdf1c97f44b2
+https://codelessons.ru/angular/angular-cli-sozdaniye-proyekta-osnovnyye-komandy.html
+Angular Cli 
+node cmd
+ng new AngularNGRXam

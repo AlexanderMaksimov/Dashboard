@@ -1,0 +1,50 @@
+ru/dashboard/backenddashboard/service/Interface/ITaskService.java
+ ru.dashboard.backenddashboard.service.Interface.ITaskService
+ru/dashboard/backenddashboard/SimpleCORSFilter.java
+ ru.dashboard.backenddashboard.SimpleCORSFilter
+ru/dashboard/backenddashboard/DataAccess/IStatRepository.java
+ ru.dashboard.backenddashboard.DataAccess.IStatRepository
+ru/dashboard/backenddashboard/service/Interface/IPriorityService.java
+ ru.dashboard.backenddashboard.service.Interface.IPriorityService
+ru/dashboard/backenddashboard/service/Implementation/StatService.java
+ ru.dashboard.backenddashboard.service.Implementation.StatService
+ru/dashboard/backenddashboard/entity/Stat.java
+ ru.dashboard.backenddashboard.entity.Stat
+ru/dashboard/backenddashboard/service/Implementation/TaskService.java
+ ru.dashboard.backenddashboard.service.Implementation.TaskService
+ru/dashboard/backenddashboard/search/TaskSearchValues.java
+ ru.dashboard.backenddashboard.search.TaskSearchValues
+ru/dashboard/backenddashboard/entity/Priority.java
+ ru.dashboard.backenddashboard.entity.Priority
+ru/dashboard/backenddashboard/entity/Category.java
+ ru.dashboard.backenddashboard.entity.Category
+ru/dashboard/backenddashboard/service/Implementation/CategoryService.java
+ ru.dashboard.backenddashboard.service.Implementation.CategoryService
+ru/dashboard/backenddashboard/BackendDashboardApplication.java
+ ru.dashboard.backenddashboard.BackendDashboardApplication
+ru/dashboard/backenddashboard/DataAccess/ICategoryRepository.java
+ ru.dashboard.backenddashboard.DataAccess.ICategoryRepository
+ru/dashboard/backenddashboard/service/Interface/IStatService.java
+ ru.dashboard.backenddashboard.service.Interface.IStatService
+ru/dashboard/backenddashboard/service/Implementation/PriorityService.java
+ ru.dashboard.backenddashboard.service.Implementation.PriorityService
+ru/dashboard/backenddashboard/search/SearchValues.java
+ ru.dashboard.backenddashboard.search.SearchValues
+ru/dashboard/backenddashboard/DataAccess/IPriorityRepository.java
+ ru.dashboard.backenddashboard.DataAccess.IPriorityRepository
+ru/dashboard/backenddashboard/controller/PriorityController.java
+ ru.dashboard.backenddashboard.controller.PriorityController
+ru/dashboard/backenddashboard/service/Interface/ICategoryService.java
+ ru.dashboard.backenddashboard.service.Interface.ICategoryService
+ru/dashboard/backenddashboard/entity/Task.java
+ ru.dashboard.backenddashboard.entity.Task
+ru/dashboard/backenddashboard/SecurityConfig.java
+ ru.dashboard.backenddashboard.SecurityConfig
+ru/dashboard/backenddashboard/controller/CategoryController.java
+ ru.dashboard.backenddashboard.controller.CategoryController
+ru/dashboard/backenddashboard/controller/StatController.java
+ ru.dashboard.backenddashboard.controller.StatController
+ru/dashboard/backenddashboard/DataAccess/ITaskRepository.java
+ ru.dashboard.backenddashboard.DataAccess.ITaskRepository
+ru/dashboard/backenddashboard/controller/TaskController.java
+ ru.dashboard.backenddashboard.controller.TaskController

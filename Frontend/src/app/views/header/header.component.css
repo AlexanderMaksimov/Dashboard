@@ -1,0 +1,15 @@
+.header-icon {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.settings button {
+    margin-right: 0;
+}
+
+.buttonView {
+    background-color: Transparent;
+    border: none !important;
+    cursor: pointer;
+    outline: none;
+}
